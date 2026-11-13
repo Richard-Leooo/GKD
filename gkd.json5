@@ -1,7 +1,7 @@
 {
   id: 20261113,
   name: '本地订阅-开屏广告',
-  version: 19,
+  version: 21,
   author: 'local',
   globalGroups: [],
   apps: [
@@ -12,8 +12,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照自动生成（置信度 A）',
-          enable: true,
           order: -10,
           matchTime: 10000,
           actionMaximum: 1,
@@ -36,8 +34,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照自动生成（置信度 B）',
-          enable: true,
           order: -10,
           matchTime: 10000,
           actionMaximum: 1,
@@ -74,7 +70,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -98,7 +93,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -147,7 +141,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -173,7 +166,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -207,7 +199,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -234,7 +225,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -278,7 +268,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -302,7 +291,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -356,7 +344,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -382,7 +369,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -415,7 +401,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -453,12 +438,10 @@
             },
           ],
           order: -10,
-          enable: true,
         },
         {
           key: 13,
           name: '开屏广告-QQ小程序开屏广告',
-          desc: '点击右下角跳过',
           fastQuery: true,
           actionMaximum: 1,
           priorityTime: 10000,
@@ -480,7 +463,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -503,7 +485,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -528,7 +509,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -575,7 +555,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -598,7 +577,6 @@
             },
           ],
           order: -10,
-          enable: true,
         },
       ],
     },
@@ -621,7 +599,6 @@
               snapshotUrls: 'https://i.gkd.li/i/17610127',
             },
           ],
-          enable: true,
           order: -10,
         },
       ],
@@ -644,7 +621,6 @@
               snapshotUrls: 'https://i.gkd.li/i/16335041',
             },
           ],
-          enable: true,
           order: -10,
         },
       ],
@@ -668,7 +644,6 @@
               snapshotUrls: 'https://i.gkd.li/i/16401925',
             },
           ],
-          enable: true,
           order: -10,
         },
       ],
@@ -692,7 +667,6 @@
               snapshotUrls: 'https://i.gkd.li/i/17068586',
             },
           ],
-          enable: true,
           order: -10,
         },
       ],
@@ -734,13 +708,10 @@
             },
           ],
           order: -10,
-          enable: true,
         },
         {
           key: 90,
           name: '开屏广告-跳转型',
-          desc: '快照生成（置信度 B）：另一种开屏形态，文字为「5 | 跳过」',
-          enable: true,
           order: -10,
           activityIds: 'com.mfcloudcalculate.networkdisk.activity.LauncherActivity',
           matchTime: 10000,
@@ -762,9 +733,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -788,9 +757,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -814,9 +781,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -840,9 +805,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -866,9 +829,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -892,9 +853,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -918,9 +877,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -944,9 +901,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -971,8 +926,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照生成（置信度 B）：SplashActivity 右上角「跳过 N」，数字与文字同节点',
-          enable: true,
           order: -10,
           activityIds: 'com.boohee.one.app.home.ui.activity.SplashActivity',
           matchTime: 10000,
@@ -994,9 +947,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -1020,9 +971,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -1046,9 +995,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -1072,9 +1019,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -1098,9 +1043,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -1124,9 +1067,7 @@
       groups: [
         {
           key: 0,
-          name: '开屏广告-通用',
-          desc: '社区无该应用的实测规则，默认关闭。开启后可能在启动页误点广告本体，建议实测确认后再打开',
-          enable: false,
+          name: '开屏广告',
           order: -10,
           matchTime: 8000,
           actionMaximum: 1,
@@ -1151,8 +1092,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照自动生成（置信度 A）',
-          enable: true,
           order: -10,
           matchTime: 10000,
           actionMaximum: 1,
@@ -1174,8 +1113,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照自动生成（置信度 A）',
-          enable: true,
           order: -10,
           matchTime: 10000,
           actionMaximum: 1,
@@ -1198,8 +1135,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照自动生成（置信度 A）',
-          enable: true,
           order: -10,
           matchTime: 10000,
           actionMaximum: 1,
@@ -1221,8 +1156,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照自动生成（置信度 A）',
-          enable: true,
           order: -10,
           matchTime: 10000,
           actionMaximum: 1,
@@ -1245,8 +1178,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照自动生成（置信度 A）',
-          enable: true,
           order: -10,
           matchTime: 10000,
           actionMaximum: 1,
@@ -1269,8 +1200,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照自动生成（置信度 A）',
-          enable: true,
           order: -10,
           matchTime: 10000,
           actionMaximum: 1,
@@ -1293,8 +1222,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照自动生成（置信度 B）',
-          enable: true,
           order: -10,
           matchTime: 10000,
           actionMaximum: 1,
@@ -1317,8 +1244,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照生成（置信度 A）',
-          enable: true,
           order: -10,
           activityIds: 'com.aihuishou.opt.ui.splash.SplashActivity',
           matchTime: 10000,
@@ -1341,8 +1266,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照生成（置信度 A）',
-          enable: true,
           order: -10,
           activityIds: 'com.tencent.tgclub.business.appframe.WelcomeActivity',
           matchTime: 10000,
@@ -1365,8 +1288,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '快照生成（置信度 A）',
-          enable: true,
           order: -10,
           activityIds: 'com.pengpeng.avocado.business.login.splashActivity.SplashActivity',
           matchTime: 10000,
@@ -1389,8 +1310,6 @@
         {
           key: 0,
           name: '开屏广告',
-          desc: '三种开屏形态：圆形跳过热区 / 美数 SDK 图标 / Sigmob 文字跳过',
-          enable: true,
           order: -10,
           matchTime: 10000,
           actionMaximum: 1,
@@ -1415,8 +1334,6 @@
         {
           key: 1,
           name: '广告落地页-关闭',
-          desc: '落地页会连播：关掉一个立刻弹下一个，故允许 30 秒内连续关闭最多 6 次，每次间隔 700ms',
-          enable: true,
           order: -9,
           activityIds: 'com.qdsj.zxt.hzjc.MainActivity',
           matchTime: 30000,
@@ -1439,8 +1356,6 @@
         {
           key: 2,
           name: '弹窗-必读通告',
-          desc: '关闭必读通告弹窗；该弹窗在落地页关闭后才可点，故放宽匹配时长并延迟执行',
-          enable: true,
           order: -8,
           activityIds: 'com.qdsj.zxt.hzjc.MainActivity',
           matchTime: 30000,
